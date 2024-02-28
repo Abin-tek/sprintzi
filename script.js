@@ -69,6 +69,7 @@ const reset = () => {
   isPlay = false;
 
   clearInterval(counter);
+  cen = sec = min = 0;
   centi.innerHTML = "00";
   second.innerHTML = "00";
   minute.innerHTML = "00";
